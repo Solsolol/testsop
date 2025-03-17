@@ -12,12 +12,12 @@ router.post('/validate', (req, res) => {
 });
 
 router.post('/publish', (req, res) => {
-    console.log('Publication de l'activité:', req.body);
+    console.log('Publication de l activité:', req.body);
     res.status(200).json({ success: true });
 });
 
 router.post('/execute', (req, res) => {
-    console.log('Exécution de l'activité:', req.body);
+    console.log('Exécution de l activité:', req.body);
     
     // Implémentation de l'intégration avec Sophia API
     const requestData = {
